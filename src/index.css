@@ -1,4 +1,5 @@
 @import "tailwindcss";
 
+//since there is no tailwindconfig.js file anymore (as per the latest tailwind docs), this is the hack to swithc between dark and light css in this project
 @custom-variant dark (&:where(.dark, .dark *));
 
